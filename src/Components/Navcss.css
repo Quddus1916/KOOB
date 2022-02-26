@@ -1,0 +1,40 @@
+.Nav{
+    background-color: aqua;
+    text-shadow: 5px;
+    text-align: center;
+    
+    align-items: center;
+}
+#backbtn {
+    background-color: rgb(194, 12, 12);
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 7px;
+  }
+
+  #backbtn {
+    transition-duration: 0.4s;
+  }
+  
+  #backbtn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  
+
+  #sort_btn {
+    background-color: rgb(194, 12, 12);
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 7px;
+  }
+
+  #sort_btn {
+    transition-duration: 0.4s;
+  }
+  
+  #sort_btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }

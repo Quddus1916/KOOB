@@ -1,0 +1,56 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet; 
+    box-sizing: content-box;
+    margin: 2px;/* 5px rounded corners */
+    padding-left: 15px;
+  }
+
+  .card p{
+    color: red;
+
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  #btnshowmore {
+    background-color: rgb(194, 12, 12);
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 7px;
+  }
+
+  #btnshowmore {
+    transition-duration: 0.4s;
+  }
+  
+  #btnshowmore:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+
+  
+  #btnshowless {
+    border-radius: 7px;
+    background-color: rgb(18, 196, 71);
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+  }
+
+  #btnshowless {
+    transition-duration: 0.4s;
+  }
+  
+  #btnshowless:hover {
+    background-color: rgb(194, 12, 12); /* Green */
+    color: white;
+  }
+  
